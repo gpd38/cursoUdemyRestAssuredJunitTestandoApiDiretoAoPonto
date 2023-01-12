@@ -16,16 +16,10 @@
         </properties>
 
         <dependencies>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>3.8.1</version>
-                <scope>test</scope>
-            </dependency>
             <!--https://github.com/rest-assured/rest-assured/wiki/GettingStarted#json-schema-validation-->
             <dependency>
                 <groupId>io.rest-assured</groupId>
-                <artifactId>json-path</artifactId>
+                <artifactId>rest-assured</artifactId>
                 <version>4.3.0</version>
                 <scope>test</scope>
             </dependency>
